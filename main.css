@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    font-family: "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+    margin: 0;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.column {
+    flex: 0 0 50%;
+    width: 31%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.intro {
+    background: url(/assets/img/icons-remastered-online-lp-d.jpg) top center/cover;
+    height: 100vh;
+}
+
+.intro__title-large {
+    font-size: calc(40px + (80 - 40) * ((100vw - 300px) / (2600 - 300)));
+    line-height: 110%;
+    margin-top: 10rem;
+}
+
+.intro__title-4 {
+    font-weight: 400;
+    font-size: calc(18px + (20 - 18) * ((100vw - 300px) / (2600 - 300)));
+    line-height: 1.7rem;
+    max-width: 350px;
+}
+
+
+/* RESPONSIVE STYLES */
+
+@media only screen and (max-width: 1024px) {
+
+    .column {
+        width: 100%;
+        flex: auto;
+    }
+
+    .intro {
+        background: url(/assets/img/icons-remastered-online-lp-m.jpg) top center/cover;
+        height: 80vh;
+    }
+
+    .intro__title-large {
+        font-weight: 400;
+        line-height: 100%;
+        margin-top: 12rem;
+    }
+
+    .intro__title-4 {
+        font-weight: 300;
+        line-height: 1.7rem;
+        max-width: 300px;
+        margin-top: 14rem;
+    }
+}
+
