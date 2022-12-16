@@ -6,9 +6,7 @@
 
  ### Option 1) Run in Google Chrome from Github
 
- 1. Prepend this fragment to the URL of any HTML file: https://htmlpreview.github.io/? e.g.:
-https://htmlpreview.github.io/?https://github.com/twbs/bootstrap/gh-pages/2.3.2/index.html
-https://htmlpreview.github.io/?https://github.com/documentcloud/backbone/blob/master/examples/todos/index.html
+ 1. Preview in your browser using this link: https://htmlpreview.github.io/?https://github.com/Akilich/vf-coding-challenge/blob/main/index.html
 
 ### Option 2) Download or clone the repo and run through VS Code
 
