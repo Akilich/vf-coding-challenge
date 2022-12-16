@@ -6,7 +6,7 @@
 
  ### Option 1) Run in Google Chrome from Github
 
- 1. Preview in your browser using this link: https://htmlpreview.github.io/?https://github.com/Akilich/vf-coding-challenge/blob/main/index.html
+ 1. Preview in Google Chrome using this link: https://htmlpreview.github.io/?https://github.com/Akilich/vf-coding-challenge/blob/main/index.html
 
 ### Option 2) Download or clone the repo and run through VS Code
 
